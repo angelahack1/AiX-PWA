@@ -2,7 +2,7 @@
   "name": "aix-pwa",
   "version": "1.0.0",
   "description": "A PWA implementation to explore this technology.",
-  "main": "index.html",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",

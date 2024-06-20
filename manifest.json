@@ -1,7 +1,7 @@
 {
     "name": "Angy Application",
     "short_name": "Angy App",
-    "start_url": "/?source=pwa",
+    "start_url": "/index_home.html?source=pwa",
     "display": "standalone",
     "icons": [
       {

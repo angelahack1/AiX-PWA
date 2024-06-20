@@ -6,7 +6,8 @@ export default defineConfig({
     emptyOutDir: false,
     rollupOptions: {
       input: {
-        index: resolve(__dirname, 'index.html'),
+        install: resolve(__dirname, 'index_install.html'),
+        index: resolve(__dirname, 'index_home.html'),
         offline: resolve(__dirname, 'offline.html'),
         'preview/index': resolve(__dirname, 'preview/index.html'),
       },

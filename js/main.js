@@ -14,6 +14,11 @@ window.addEventListener('DOMContentLoaded', (e) => {
       displayMode = 'standalone';
     }
     console.log('DISPLAY_MODE_CHANGED', displayMode);
+
+    if(displayMode == 'standalone') {
+      console.log('About to redirect...');
+      window.top.location.href = '/index_home.html?source=pwa';
+    }
   });
 
   let displayMode = 'browser tab';
@@ -24,6 +29,11 @@ window.addEventListener('DOMContentLoaded', (e) => {
     displayMode = 'standalone';
   }
   console.log('DISPLAY_MODE_LAUNCH:', displayMode);
+
+  if(displayMode == 'standalone') {
+    console.log('About to redirect...');
+    window.top.location.href = '/index_home.html?source=pwa';
+  }
 });
 
 window.addEventListener('appinstalled', () => {
